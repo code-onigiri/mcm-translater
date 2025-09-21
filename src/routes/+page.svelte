@@ -1,4 +1,8 @@
 <script>
     import Header from '../parts/header.svelte';
+    import Main from '../parts/main.svelte';
 </script>
-<Header />
+<dev>
+    <Header />
+    <Main />
+</dev>
