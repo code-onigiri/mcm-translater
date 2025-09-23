@@ -6,15 +6,36 @@
 	<div class="flex-1 join">
 		<div class="dropdown dropdown-hover relative">
 			<div tabindex="0" role="button" class="btn btn-sm btn-ghost join-item">File</div>
-			<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 z-50">
-				<li><button class="btn btn-ghost content-start text-right justify-start">New File</button></li>
-				<li><button class="btn btn-ghost content-start text-right justify-start">Open File</button></li>
-				<li><button class="btn btn-ghost content-start text-right justify-start">Save File</button></li>
+			<ul class="dropdown-content p-2 shadow bg-base-100 rounded-box w-52 z-50">
+				<li class="join join-vertical w-full">
+					<div class="text-primary">Project file</div>
+					<div class="border-b-2 w-20"></div>
+					<button class="btn btn-ghost join-item">Open</button>
+					<button class="btn btn-ghost join-item">Save</button>
+				<li class="join join-vertical w-full">
+					<div class="text-primary">Open file</div>
+					<div class="border-b-2 w-20"></div>
+					<button class="btn btn-ghost join-item">.jar file</button>
+					<button class="btn btn-ghost join-item">resource pack</button>
+					<button class="btn btn-ghost join-item">original lang .json</button>
+					<button class="btn btn-ghost join-item">translated lang .json</button>
+					<button class="btn btn-ghost join-item">original lang .lang</button>
+					<button class="btn btn-ghost join-item">translated lang .lang</button>
+				</li>
+				<li class="join join-vertical w-full">
+					<div class="text-primary">Save file</div>
+					<div class="border-b-2 w-20"></div>
+					<button class="btn btn-ghost join-item">resource pack</button>
+					<button class="btn btn-ghost join-item">original lang .json</button>
+					<button class="btn btn-ghost join-item">translated lang .json</button>
+					<button class="btn btn-ghost join-item">original lang .lang</button>
+					<button class="btn btn-ghost join-item">translated lang .lang</button>
+				</li>
 			</ul>
 		</div>
 		<div class="dropdown dropdown-hover relative">
 			<div tabindex="0" role="button" class="btn btn-sm btn-ghost join-item">Edit</div>
-			<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 z-50">
+			<ul class="dropdown-content p-2 shadow bg-base-100 rounded-box w-52 z-50">
 				<li>test</li>
 			</ul>
 		</div>
